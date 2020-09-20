@@ -1,0 +1,28 @@
+#Computational Social Science Project 1 Terminal Code
+##Lawrence J. Liu
+##9/20/20
+
+#set directory
+
+cd Documents
+
+#Clone Github repo
+
+git clone https://github.com/ljliu7620/Computational-Social-Science-Projects.git
+
+#Add a folder called Project 1
+
+cd Computational-Social-Science-Projects/
+mkdir Project_1 
+
+#Add text file with commands run so far, as well as commands to add, commit, push changes to GitHub repo
+
+cd Project_1/
+vim commands.txt #then press I to insert
+
+
+git add commands.txt
+git commit -m "commands run in Terminal for CSS Project 1"
+git push
+
+*press esc, type :wq, enter to exit VIM
